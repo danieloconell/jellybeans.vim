@@ -470,7 +470,7 @@ call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 
 call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
 call s:X("FoldColumn","535D66","1f1f1f","","",s:termBlack)
-call s:X("SignColumn","777777","333333","","",s:termBlack)
+call s:X("SignColumn","151515","151515","","",s:termBlack)
 call s:X("ColorColumn","","000000","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
@@ -652,6 +652,9 @@ call s:X("IndentGuidesEven","","1b1b1b","","","")
 
 hi! link TagListFileName Directory
 call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
+
+call s:X("GitSignsChange", "8197BF", "151515", "", "", "")
+call s:X("WinSeparator", "383539", "383539", "", "", "")
 
 " Manual overrides for 256-color terminals. Dark colors auto-map badly.
 if !s:low_color
